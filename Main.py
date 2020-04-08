@@ -4,7 +4,6 @@ import sys
 from GameOfLife import Game_window
 from Button import Button
 
-
 WIDTH, HEIGHT = 1000, 775
 FPS = 60
 BACKGROUND = (255, 255, 255)
