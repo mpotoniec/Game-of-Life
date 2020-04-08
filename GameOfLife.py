@@ -80,7 +80,6 @@ class Game_window():
     def evaluate(self):
 
         to_change = [[[False] for x in range(self.cols) ] for y in range(self.rows)]
-
         for row in self.grid:
             for cell in row:
                 cell.alive_neighbours = 0
