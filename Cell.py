@@ -7,10 +7,8 @@ class Cell:
         self.surface = surface
         self.x = x
         self.y = y
-
         self.image = pygame.Surface((12,12))
         self.rect = self.image.get_rect()
-
         self.neighbours = []
         self.alive_neighbours = 0
 
