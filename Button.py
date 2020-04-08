@@ -35,14 +35,6 @@ class Button:
             self.hovered = True
         else:
             self.hovered = False
-        '''if self.state == '' or game_state == '':
-            #self.showing = True
-        else:
-            if self.state == game_state:
-                self.showing = True
-            else:
-                self.showing = False
-                # Bez ukrywania przycisków''' 
         
 
     def draw(self):
